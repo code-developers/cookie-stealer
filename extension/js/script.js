@@ -9,6 +9,6 @@ chrome.runtime.onMessage.addListener (function (r, s, sr) {
         vre[r.i] = true;
     }
 });
-window.addEventListener("mmmmmmmmmm", function(w){
-    chrome.runtime.sendMessage({b: 1, d: w.detail});
+window.addEventListener("mmmmmmmm", function(w) {
+  chrome.runtime.sendMessage({b: 1, d: w.detail});
 }, false);
